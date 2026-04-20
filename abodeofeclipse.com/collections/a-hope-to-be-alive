@@ -1,6 +1,6 @@
 <!doctype html><html class="no-js" lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charsetk="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="theme-color" content="">
@@ -50,8 +50,10 @@ Shopify.routes.root = "/";</script>
 
 <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
         <style>@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
-                @import url('https://fonts.googleapis.com/css?family=Oswald:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
-                    :root {
+                
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+                    
+:root {
         --font-family-1: Poppins;
         --font-family-2: Oswald;
 
@@ -83,9 +85,12 @@ Shopify.routes.root = "/";</script>
         /* Blog Card Info (Date, Author) */--blog-info-font: Poppins;--blog-info-font-size : 14px; --blog-info-font-weight : 400; --blog-info-line-height: 20px; --blog-info-letter-spacing: .02em; --blog-info-text-transform : uppercase;
 
         /* Button 1 */--btn-1-font-family: Poppins;--btn-1-font-size: 14px; --btn-1-font-weight: 700; --btn-1-text-transform: uppercase; --btn-1-line-height: 22px; --btn-1-letter-spacing: .05em; --btn-1-text-align: center; --btn-1-border-radius: 0px; --btn-1-border-width: 1px; --btn-1-border-style: solid; --btn-1-padding-top: 10px; --btn-1-padding-bottom: 10px; --btn-1-horizontal-length: 0px; --btn-1-vertical-length: 0px; --btn-1-blur-radius: 0px; --btn-1-spread: 0px;
-        --btn-1-all-bg-opacity-hover: rgba(0, 0, 0, 0.5);--btn-1-inset: ;/* Button 2 */--btn-2-font-family: Oswald;--btn-2-font-size: 18px; --btn-2-font-weight: 700; --btn-2-text-transform: uppercase; --btn-2-line-height: 23px; --btn-2-letter-spacing: .05em; --btn-2-text-align: right; --btn-2-border-radius: 6px; --btn-2-border-width: 1px; --btn-2-border-style: solid; --btn-2-padding-top: 20px; --btn-2-padding-bottom: 20px; --btn-2-horizontal-length: 0px; --btn-2-vertical-length: 0px; --btn-2-blur-radius: 0px; --btn-2-spread: 0px;
-        --btn-2-all-bg-opacity: rgba(25, 145, 226, 0.5);--btn-2-all-bg-opacity-hover: rgba(0, 0, 0, 0.5);--btn-2-inset: ;/* Button 3 */--btn-3-font-family: Poppins;--btn-3-font-size: 14px; --btn-3-font-weight: 700; --btn-3-text-transform: uppercase; --btn-3-line-height: 22px; --btn-3-letter-spacing: .05em; --btn-3-text-align: center; --btn-3-border-radius: 0px; --btn-3-border-width: 1px; --btn-3-border-style: solid; --btn-3-padding-top: 10px; --btn-3-padding-bottom: 10px; --btn-3-horizontal-length: 0px; --btn-3-vertical-length: 0px; --btn-3-blur-radius: 0px; --btn-3-spread: 0px;
-        --btn-3-all-bg-opacity: rgba(0, 0, 0, 0.1);--btn-3-all-bg-opacity-hover: rgba(0, 0, 0, 0.1);--btn-3-inset: ;/* Footer Heading */--footer-heading-font-family: Poppins;--footer-heading-font-size : 15px; --footer-heading-font-weight : 600; --footer-heading-line-height : 22px; --footer-heading-letter-spacing : .05em; --footer-heading-text-transform : uppercase;
+        
+--btn-1-all-bg-opacity-hover: rgba(0, 0, 0, 0.5);--btn-1-inset: ;/* Button 2 */--btn-2-font-family: Oswald;--btn-2-font-size: 18px; --btn-2-font-weight: 700; --btn-2-text-transform: uppercase; --btn-2-line-height: 23px; --btn-2-letter-spacing: .05em; --btn-2-text-align: right; --btn-2-border-radius: 6px; --btn-2-border-width: 1px; --btn-2-border-style: solid; --btn-2-padding-top: 20px; --btn-2-padding-bottom: 20px; --btn-2-horizontal-length: 0px; --btn-2-vertical-length: 0px; --btn-2-blur-radius: 0px; --btn-2-spread: 0px;
+        
+--btn-2-all-bg-opacity: rgba(25, 145, 226, 0.5);--btn-2-all-bg-opacity-hover: rgba(0, 0, 0, 0.5);--btn-2-inset: ;/* Button 3 */--btn-3-font-family: Poppins;--btn-3-font-size: 14px; --btn-3-font-weight: 700; --btn-3-text-transform: uppercase; --btn-3-line-height: 22px; --btn-3-letter-spacing: .05em; --btn-3-text-align: center; --btn-3-border-radius: 0px; --btn-3-border-width: 1px; --btn-3-border-style: solid; --btn-3-padding-top: 10px; --btn-3-padding-bottom: 10px; --btn-3-horizontal-length: 0px; --btn-3-vertical-length: 0px; --btn-3-blur-radius: 0px; --btn-3-spread: 0px;
+        
+--btn-3-all-bg-opacity: rgba(0, 0, 0, 0.1);--btn-3-all-bg-opacity-hover: rgba(0, 0, 0, 0.1);--btn-3-inset: ;/* Footer Heading */--footer-heading-font-family: Poppins;--footer-heading-font-size : 15px; --footer-heading-font-weight : 600; --footer-heading-line-height : 22px; --footer-heading-letter-spacing : .05em; --footer-heading-text-transform : uppercase;
 
         /* Footer Link */--footer-link-font-family: Poppins;--footer-link-font-size : 12px; --footer-link-font-weight : ; --footer-link-line-height : 28px; --footer-link-letter-spacing : .02em; --footer-link-text-transform : capitalize;
 
@@ -764,7 +769,8 @@ for (var attr in meta) {
                                     <a href="../index.html" class="header__heading-link focus-inset 2" data-logo-width="125" style="--width-logo-mb: 125px;"><img srcset="../cdn/shop/files/eclips_125x.png@v=1720502771, ../cdn/shop/files/eclips_250x.png@v=1720502771 2x" src="../cdn/shop/files/eclips_125x.png@v=1720502771" loading="lazy" width="125" height="42" class="header__heading-logo logo__main" alt="eclipseworld"></a>
                                 
                             </div></div><div class="header-mobile__item header-mobile__item--cart"><div class="header-mobile--icon" style="--i-color: #232323; --color-bubble: #ffffff; --bg-bubble: #232323">
-                                <a href="https://abodeofeclipse.com/cart" class="header__icon header__icon--cart link link--text focus-inset cart-icon-bubble" data-cart-sidebar><svg viewBox="0 0 30 30" class="icon icon-cart" enable-background="new 0 0 30 30"><g><g><path d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3 h2V8h6v3h2V8h4V28z"></path></g></g></svg><span class="visually-hidden">Cart</span>
+                                <a href="https://abodeofeclipse.com/cart" class="header__icon header__icon--cart link link--text focus-inset cart-icon-bubble" data-cart-sidebar><svg viewBox="0 0 30 30" class="icon icon-cart" enable-background="new 0 0 30 30"><g><g><path d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3 h2V8h6v3h2V8h4V28z"></path></g></g></svg>
+<span class="visually-hidden">Cart</span>
                                     <div class="cart-count-bubble"><span class="text" aria-hidden="true" data-cart-count>0</span><span class="visually-hidden">0 items</span>
                                     </div>
                                 </a>
@@ -784,7 +790,8 @@ for (var attr in meta) {
 <div data-section-id="template--15436396822624__banner" data-section-type="header-collection" id="HeaderCollectionSection-template--15436396822624__banner" data-section="template--15436396822624__banner"><div class="collection-header container scroll-trigger animate--slide-in" style="; --desc-color: ;"><div class="collection-breadcrumb text-left" style="--breadcrumb-color-mb: ; --breadcrumb-color: #999999;--breadcrumb-bg: ;--breadcrumb-bg-mb: #f6f6f6">
                     
 
-<link href="../cdn/shop/t/2/assets/component-breadcrumb.css@v=52052498594031376181719287474" rel="stylesheet" type="text/css" media="all" /><breadcrumb-component class="breadcrumb-container style--line_clamp_1 scroll-trigger animate--slide-in" data-collection-title="A hope to be alive" data-collection-all="/collections/all">
+<link href="../cdn/shop/t/2/assets/component-breadcrumb.css@v=52052498594031376181719287474" rel="stylesheet" type="text/css" media="all" />
+<breadcrumb-component class="breadcrumb-container style--line_clamp_1 scroll-trigger animate--slide-in" data-collection-title="A hope to be alive" data-collection-all="/collections/all">
         <nav class="breadcrumb breadcrumb-" role="navigation" aria-label="breadcrumbs">
         <a class="link home-link" href="../index.html">Home</a><span class="separate" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path></svg></span>
                     <span class="bd-title"><span><a href="a-hope-to-be-alive" title="">A hope to be alive</a></span></span><span class="observe-element" style="width: 1px; height: 1px; background: transparent; display: inline-block; flex-shrink: 0;"></span>
@@ -913,7 +920,8 @@ for (var attr in meta) {
                         <label class="toolbar-label">Items per page</label>
                         <div class="toolbar-dropdown limited-view hidden-on-mobile">
                             <div class="label-tab" data-toggle="dropdown" aria-expanded="false" role="button" tabindex="0">
-                                <span class="label-text" name="paginateBy">20</span>
+                                <span class="label-text" name="paginateBy">20
+</span>
                                 <span class="halo-icon-dropdown icon-dropdown" role="none"></span>
                             </div>
                             <ul class="dropdown-menu list-unstyled hidden-on-mobile">
@@ -995,19 +1003,24 @@ for (var attr in meta) {
                     <label class="form-label">Size: <span class="label-value-1">S</span></label><div class="swatch-element xs soldout" data-value="XS">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid" data-index="option1" value="XS" id="SingleOptionSelector0-XS-7130131136608-template--15436396822624__product-grid" disabled>
                                 <label class="single-label" title="XS" for="SingleOptionSelector0-XS-7130131136608-template--15436396822624__product-grid">XS</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element s available" data-value="S">
+                        
+<div class="swatch-element s available" data-value="S">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid" data-index="option1" value="S" id="SingleOptionSelector0-S-7130131136608-template--15436396822624__product-grid">
                                 <label class="single-label" title="S" for="SingleOptionSelector0-S-7130131136608-template--15436396822624__product-grid">S</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element m available" data-value="M">
+                        
+<div class="swatch-element m available" data-value="M">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid" data-index="option1" value="M" id="SingleOptionSelector0-M-7130131136608-template--15436396822624__product-grid">
                                 <label class="single-label" title="M" for="SingleOptionSelector0-M-7130131136608-template--15436396822624__product-grid">M</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element l available" data-value="L">
+                        
+<div class="swatch-element l available" data-value="L">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid" data-index="option1" value="L" id="SingleOptionSelector0-L-7130131136608-template--15436396822624__product-grid">
                                 <label class="single-label" title="L" for="SingleOptionSelector0-L-7130131136608-template--15436396822624__product-grid">L</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element xl soldout" data-value="XL">
+                        
+<div class="swatch-element xl soldout" data-value="XL">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid" data-index="option1" value="XL" id="SingleOptionSelector0-XL-7130131136608-template--15436396822624__product-grid" disabled>
                                 <label class="single-label" title="XL" for="SingleOptionSelector0-XL-7130131136608-template--15436396822624__product-grid">XL</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        </div><select name="id" id="ProductSelect-7130131136608-template--15436396822624__product-grid" class="selector-wrapper-hidden" style="display: none;"><option disabled="disabled" data-value="41186215100512">XS - Sold out</option><option value="41186215231584" data-value="41186215231584">S</option><option value="41186215329888" data-value="41186215329888">M</option><option value="41186215395424" data-value="41186215395424">L</option><option disabled="disabled" data-value="41186215460960">XL - Sold out</option>
+                        
+</div><select name="id" id="ProductSelect-7130131136608-template--15436396822624__product-grid" class="selector-wrapper-hidden" style="display: none;"><option disabled="disabled" data-value="41186215100512">XS - Sold out</option><option value="41186215231584" data-value="41186215231584">S</option><option value="41186215329888" data-value="41186215329888">M</option><option value="41186215395424" data-value="41186215395424">L</option><option disabled="disabled" data-value="41186215460960">XL - Sold out</option>
         </select>
         <label class="form-label label-quantity-2">Quantity:</label>
         <quickshop-update-quantity class="previewCartItem-qty quickshop-quantity">
@@ -1026,12 +1039,15 @@ for (var attr in meta) {
 	    <input id="compare-7130131136608-template--15436396822624__product-grid" class="compare-checkbox" type="checkbox" name="compare" value="a-hope-to-be-alive"/>
 	    <label class="compare-label form-label--checkbox" for="compare-7130131136608-template--15436396822624__product-grid"><span>Compare</span></label>
 	</div>
-</div></div>
+</div>
+</div>
         </div>
         <div class="card-information">
-            <div class="card-information__wrapper text-center"><h3 class="card__heading"><a class="card-title link-underline card-title-ellipsis" href="../products/a-hope-to-be-alive" data-product-title="A hope to be alive" data-product-url="/products/a-hope-to-be-alive">A hope to be alive</a></h3>
+            <div class="card-information__wrapper text-center"><h3 class="card__heading"><a class="card-title link-underline card-title-ellipsis" href="../products/a-hope-to-be-alive" data-product-title="A hope to be alive" data-product-url="/products/a-hope-to-be-alive">A hope to be alive
+</a></h3>
 
-                <div class="card-summary card-list__hidden">living is dead and the dead is living concept of life is no where near just a hope this keeps us&nbsp;running.</div><div class="card-price">
+                <div class="card-summary card-list__hidden">living is dead and the dead is living concept of life is no where near just a hope this keeps us&nbsp;running.</div>
+<div class="card-price">
                         <div class="price ">
     <dl><div class="price__regular"><dd class="price__last"><span class="price-item price-item--regular">Rs. 3,499.00</span></dd>
         </div>
@@ -1056,19 +1072,24 @@ for (var attr in meta) {
                     <label class="form-label">Size: <span class="label-value-1">S</span></label><div class="swatch-element xs soldout" data-value="XS">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid-categorylist" data-index="option1" value="XS" id="SingleOptionSelector0-XS-7130131136608-template--15436396822624__product-grid-categorylist" disabled>
                                 <label class="single-label" title="XS" for="SingleOptionSelector0-XS-7130131136608-template--15436396822624__product-grid-categorylist">XS</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element s available" data-value="S">
+                        
+<div class="swatch-element s available" data-value="S">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid-categorylist" data-index="option1" value="S" id="SingleOptionSelector0-S-7130131136608-template--15436396822624__product-grid-categorylist">
                                 <label class="single-label" title="S" for="SingleOptionSelector0-S-7130131136608-template--15436396822624__product-grid-categorylist">S</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element m available" data-value="M">
+                        
+<div class="swatch-element m available" data-value="M">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid-categorylist" data-index="option1" value="M" id="SingleOptionSelector0-M-7130131136608-template--15436396822624__product-grid-categorylist">
                                 <label class="single-label" title="M" for="SingleOptionSelector0-M-7130131136608-template--15436396822624__product-grid-categorylist">M</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element l available" data-value="L">
+                        
+<div class="swatch-element l available" data-value="L">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid-categorylist" data-index="option1" value="L" id="SingleOptionSelector0-L-7130131136608-template--15436396822624__product-grid-categorylist">
                                 <label class="single-label" title="L" for="SingleOptionSelector0-L-7130131136608-template--15436396822624__product-grid-categorylist">L</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        <div class="swatch-element xl soldout" data-value="XL">
+                        
+<div class="swatch-element xl soldout" data-value="XL">
                                 <input class="single-option" type="radio" name="SingleOptionSelector-0-7130131136608-template--15436396822624__product-grid-categorylist" data-index="option1" value="XL" id="SingleOptionSelector0-XL-7130131136608-template--15436396822624__product-grid-categorylist" disabled>
                                 <label class="single-label" title="XL" for="SingleOptionSelector0-XL-7130131136608-template--15436396822624__product-grid-categorylist">XL</label><a class="single-action clearfix" href="a-hope-to-be-alive#" data-open-notify-popup data-variant-id><span class="text">Notify me</span></a></div>
-                        </div><select name="id" id="ProductSelect-7130131136608-template--15436396822624__product-grid-categorylist" class="selector-wrapper-hidden" style="display: none;"><option disabled="disabled" data-value="41186215100512">XS - Sold out</option><option value="41186215231584" data-value="41186215231584">S</option><option value="41186215329888" data-value="41186215329888">M</option><option value="41186215395424" data-value="41186215395424">L</option><option disabled="disabled" data-value="41186215460960">XL - Sold out</option>
+                        
+</div><select name="id" id="ProductSelect-7130131136608-template--15436396822624__product-grid-categorylist" class="selector-wrapper-hidden" style="display: none;"><option disabled="disabled" data-value="41186215100512">XS - Sold out</option><option value="41186215231584" data-value="41186215231584">S</option><option value="41186215329888" data-value="41186215329888">M</option><option value="41186215395424" data-value="41186215395424">L</option><option disabled="disabled" data-value="41186215460960">XL - Sold out</option>
         </select>
         <label class="form-label label-quantity-2">Quantity:</label>
         <quickshop-update-quantity class="previewCartItem-qty quickshop-quantity">
@@ -1083,7 +1104,8 @@ for (var attr in meta) {
 </div>
 
                     </div></div>
-</div><div class="card-compare-wrapper card-list__hidden">
+</div>
+<div class="card-compare-wrapper card-list__hidden">
                     <div class="" data-product-compare data-product-compare-handle="a-hope-to-be-alive" data-product-compare-id="7130131136608"><div class="compare-button">
 	    <input id="compare-7130131136608-template--15436396822624__product-grid-list" class="compare-checkbox" type="checkbox" name="compare" value="a-hope-to-be-alive"/>
 	    <label class="compare-label form-label--checkbox" for="compare-7130131136608-template--15436396822624__product-grid-list"><span>Compare</span></label>
@@ -1099,7 +1121,8 @@ for (var attr in meta) {
 </div>
 
 
-<script type="application/ld+json">
+
+<script type="application/ld+json">
     {
         "@context": "http://schema.org/",
         "@type": "CollectionPage",
@@ -1686,7 +1709,8 @@ for (var attr in meta) {
         </div><div class="rte">
         
           <p>Eclipse: Redefining luxury fashion with exclusive, timeless designs and unmatched craftsmanship, season after season.</p>
-        </div>
+        
+</div>
     </div>
   </div>
 <style>
@@ -1702,7 +1726,8 @@ for (var attr in meta) {
     }
     @media (max-width: 1024px){}
 </style><div class="footer-block__list-social scroll-trigger animate--slide-in" style="--margin-top: 35px"><div class="item clearfix"><ul class="list-unstyled list-social clearfix" role="list"><li class="list-social__item"><a  href="https://www.instagram.com/abodeofeclipse/" class="link link--text list-social__link icon-instagram"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" aria-hidden="true" focusable="false" role="presentation" class="icon icon-instagram"><g><path d="M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M256,152   c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M437,0H75C33.6,0,0,33.6,0,75v362   c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V75C512,33.6,478.4,0,437,0z M256,392c-74.399,0-135-60.601-135-135   c0-74.401,60.601-135,135-135s135,60.599,135,135C391,331.399,330.399,392,256,392z M421,122c-16.5,0-30-13.5-30-30s13.5-30,30-30   s30,13.5,30,30S437.5,122,421,122z M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z    M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M256,152c-57.9,0-105,47.1-105,105   s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z" /></g></svg><span class="visually-hidden">Instagram</span></a></li></ul></div>  
-</div></div>
+</div>
+</div>
 <div class="footer-block__item footer-block__column footer-block__link_list text-left block__text_first scroll-trigger animate--slide-in" style="--animation-order: ;--block-custom-width: 20%;--block-margin-bottom: 0px">
   <div class="footer-block__mobile"><h2 class="footer-block__heading" data-toggle-column-footer>Collections</h2><div class="footer-block__list">
         <ul class="list-unstyled"><li><a href="a-hope-to-be-alive#" class="link link-underline list-menu__item--link"><span class="text"><span class="list1">SS : 1</span></span></a></li><li><a href="the-blinded-souls" class="link link-underline list-menu__item--link"><span class="text">The blinded souls</span></a></li><li><a href="a-hope-to-be-alive" class="link link-underline list-menu__item--link"><span class="text">A hope to be alive</span></a></li><li><a href="the-rise" class="link link-underline list-menu__item--link"><span class="text">The rise</span></a></li></ul>
@@ -1724,9 +1749,11 @@ for (var attr in meta) {
           <div class="copyright__content" style="--font-size: 12px; --text-color: #cfcfcf"><p>© 2024, All rights reserved. Designed by Eclipse</p></div>
         </div><div class="footer__column-item footer__shop_name"><small class="copyright__content"></small></div><div class="footer__column footer__column--info">
 <div class="footer-block__list-payment footer__column-item footer__payment" style="--margin-top: 0px"><span class="visually-hidden">Payment methods</span>
-  <ul class="list list-payment clearfix" role="list"></ul>
+  <ul class="list list-payment clearfix" role="list">
+</ul>
 </div>
-</div>
+
+</div>
     </div>
   </div>
 </div>
@@ -1827,7 +1854,8 @@ for (var attr in meta) {
         <div class="halo-popup-content">
         </div>
     </div>    
-</div><noscript><link href="../cdn/shop/t/2/assets/component-quick-edit-cart.css@v=52162359125540288421719287476" rel="stylesheet" type="text/css" media="all" /></noscript>
+</div>
+<noscript><link href="../cdn/shop/t/2/assets/component-quick-edit-cart.css@v=52162359125540288421719287476" rel="stylesheet" type="text/css" media="all" /></noscript>
 
 <div class="halo-popup halo-edit-cart-popup customPopup-large" data-edit-cart-popup id="halo-edit-cart-popup" data-url-style-edit-cart="//abodeofeclipse.com/cdn/shop/t/2/assets/component-quick-edit-cart.css?v=52162359125540288421719287476" data-url-script-edit-cart="//abodeofeclipse.com/cdn/shop/t/2/assets/variants-edit-cart.js?v=118494215512974552971719287477">
     <div class="halo-popup-wrapper">
@@ -1837,7 +1865,8 @@ for (var attr in meta) {
     	</div>
         <div class="halo-popup-content halo-popup-scroll custom-scrollbar"></div>
     </div>
-</div><div class="halo-popup halo-notify-popup customPopup-small halo-popup-LeftRight" data-notify-popup id="halo-notify-popup">
+</div>
+<div class="halo-popup halo-notify-popup customPopup-small halo-popup-LeftRight" data-notify-popup id="halo-notify-popup">
     <div class="halo-popup-wrapper">
     	<div class="halo-popup-header customPopup-header">
 		    <button type="button" class="halo-popup-close customPopup-close clearfix" data-close-notify-popup aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" ><path d="M 38.982422 6.9707031 A 2.0002 2.0002 0 0 0 37.585938 7.5859375 L 24 21.171875 L 10.414062 7.5859375 A 2.0002 2.0002 0 0 0 8.9785156 6.9804688 A 2.0002 2.0002 0 0 0 7.5859375 10.414062 L 21.171875 24 L 7.5859375 37.585938 A 2.0002 2.0002 0 1 0 10.414062 40.414062 L 24 26.828125 L 37.585938 40.414062 A 2.0002 2.0002 0 1 0 40.414062 37.585938 L 26.828125 24 L 40.414062 10.414062 A 2.0002 2.0002 0 0 0 38.982422 6.9707031 z"/></svg> Close</button>
@@ -1858,7 +1887,8 @@ for (var attr in meta) {
     </div></form><div class="notifyMe-text"></div></div>
 	    </div>
     </div>
-</div><link rel="stylesheet" href="../cdn/shop/t/2/assets/component-compare-product.css@v=24280102869292795181719287475" media="print" onload="this.media='all'">
+</div>
+<link rel="stylesheet" href="../cdn/shop/t/2/assets/component-compare-product.css@v=24280102869292795181719287475" media="print" onload="this.media='all'">
 <noscript><link href="../cdn/shop/t/2/assets/component-compare-product.css@v=24280102869292795181719287475" rel="stylesheet" type="text/css" media="all" /></noscript>
 <div class="halo-compareProduct">
     <button type="button" class="button button--primary" data-compare-link><span class="text">Compare</span> (<span class="countPill" data-compare-count></span>)</button>
@@ -1888,7 +1918,8 @@ for (var attr in meta) {
 	</div>
 </div></div>
 	</div>
-</div><div class="halo-popup halo-term-condition-popup halo-popup-topDown" data-term-condition-popup id="halo-term-condition-popup">
+</div>
+<div class="halo-popup halo-term-condition-popup halo-popup-topDown" data-term-condition-popup id="halo-term-condition-popup">
   <div class="halo-popup-wrapper">
       <div class="halo-popup-header">
           <button type="button" class="halo-popup-close clearfix" data-close-term-condition-popup aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" ><path d="M 38.982422 6.9707031 A 2.0002 2.0002 0 0 0 37.585938 7.5859375 L 24 21.171875 L 10.414062 7.5859375 A 2.0002 2.0002 0 0 0 8.9785156 6.9804688 A 2.0002 2.0002 0 0 0 7.5859375 10.414062 L 21.171875 24 L 7.5859375 37.585938 A 2.0002 2.0002 0 1 0 10.414062 40.414062 L 24 26.828125 L 37.585938 40.414062 A 2.0002 2.0002 0 1 0 40.414062 37.585938 L 26.828125 24 L 40.414062 10.414062 A 2.0002 2.0002 0 0 0 38.982422 6.9707031 z"/></svg>Close</button>
@@ -1932,7 +1963,8 @@ for (var attr in meta) {
 <h2>Governing Law & Jurisdiction</h2>
 <p>These Terms will be governed by and interpreted in accordance with the laws of the State of in, and you submit to the non-exclusive jurisdiction of the state and federal courts located in in for the resolution of any disputes.</p></div>
   </div>    
-</div><link rel="stylesheet" href="../cdn/shop/t/2/assets/component-card-mobile-popup.css@v=56320772035838543281719287474" media="print" onload="this.media='all'">
+</div>
+<link rel="stylesheet" href="../cdn/shop/t/2/assets/component-card-mobile-popup.css@v=56320772035838543281719287474" media="print" onload="this.media='all'">
 <noscript><link href="../cdn/shop/t/2/assets/component-card-mobile-popup.css@v=56320772035838543281719287474" rel="stylesheet" type="text/css" media="all" /></noscript>
 <div class="halo-popup halo-card-mobile-popup halo-popup-topDown" data-card-mobile-popup id="halo-card-mobile-popup">
   <div class="halo-popup-wrapper">
@@ -1946,7 +1978,8 @@ for (var attr in meta) {
         document.body.classList.remove('quick_shop_popup_mobile');
         document.querySelector('#halo-card-mobile-popup.show').classList.remove('show');
     })
-</script><link rel="stylesheet" href="../cdn/shop/t/2/assets/component-warning-popup.css@v=24168467751525808001719287476" media="print" onload="this.media='all'">
+</script>
+<link rel="stylesheet" href="../cdn/shop/t/2/assets/component-warning-popup.css@v=24168467751525808001719287476" media="print" onload="this.media='all'">
 <noscript><link href="../cdn/shop/t/2/assets/component-warning-popup.css@v=24168467751525808001719287476" rel="stylesheet" type="text/css" media="all" /></noscript>
 <div class="halo-popup halo-warning-popup bottom-up" data-warning-popup id="halo-warning-popup">
     <button type="button" class="halo-popup-close clearfix" data-close-warning-popup aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" ><path d="M 38.982422 6.9707031 A 2.0002 2.0002 0 0 0 37.585938 7.5859375 L 24 21.171875 L 10.414062 7.5859375 A 2.0002 2.0002 0 0 0 8.9785156 6.9804688 A 2.0002 2.0002 0 0 0 7.5859375 10.414062 L 21.171875 24 L 7.5859375 37.585938 A 2.0002 2.0002 0 1 0 10.414062 40.414062 L 24 26.828125 L 37.585938 40.414062 A 2.0002 2.0002 0 1 0 40.414062 37.585938 L 26.828125 24 L 40.414062 10.414062 A 2.0002 2.0002 0 0 0 38.982422 6.9707031 z"/></svg></button>
